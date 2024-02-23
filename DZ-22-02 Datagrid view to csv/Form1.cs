@@ -45,12 +45,7 @@ namespace DZ_22_02_Datagrid_view_to_csv
                 }
             }
 
-            openFileDialog1.FileName = @"data\Text2.txt";
-            openFileDialog1.Filter =
-                     "Текстовые файлы (*.txt)|*.txt|Excel-файлы (*.csv)|*.csv|All files (*.*)|*.*";
-            saveFileDialog1.Filter =
-                     "Текстовые файлы (*.txt)|*.txt|Excel-файлы (*.csv)|*.csv|All files (*.*)|*.*";
-        }
+            }
             private bool Chech(List<char> lst, char ch)
             {
                 for (int i = 0; i < lst.Count; i++)
